@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goldy</title>
+  <script src="https://kit.fontawesome.com/24342f7406.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <a href="#">Goldy</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item">Home</li>
+      <li class="navbar__menu__item">Featured</li>
+      <li class="navbar__menu__item">Women</li>
+      <li class="navbar__menu__item">New</li>
+      <li class="navbar__menu__item"><a href="./shop.html">Shop</a></li>
+      <li class="navbar__menu__item">
+        <i class="fas fa-shopping-bag"></i>
+      </li>
+    </ul>
+
+    <!-- Toggle Button -->
+    <button class="toggle_btn">
+      <i class="fas fa-bars"></i>
+    </button>
+
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home__container">
+      <div class="home__data">
+        <h3>New in</h3>
+        <h1>YEEZY BOOST<br>SPLY - 350</h1>
+        <h3>Explore the new collections of sneakers</h3>
+        <button>Explore now</button>
+      </div>
+      <div class="home__sneaker">
+        <div class="home__shape">
+          <img src="imgs/imghome.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured -->
+  <section id="featured" class="section section__container">
+    <h2 class="section__title">Featured</h2>
+    <div class="featured__container ">
+
+      <article class="sneaker">
+        <div class="sneaker__sale">Sale</div>
+        <img src="imgs/featured1.png" alt="">
+        <span class="sneaker__name">Nike Jordan</span>
+        <span class="sneaker__price">$149.99</span>
+        <a href="#" class="sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+      <article class="sneaker">
+        <div class="sneaker__sale">Sale</div>
+        <img src="imgs/featured2.png" alt="">
+        <span class="sneaker__name">Nike Free RN</span>
+        <span class="sneaker__price">$149.99</span>
+        <a href="#" class="sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+      <article class="sneaker">
+        <div class="sneaker__sale">Sale</div>
+        <img src="imgs/featured3.png" alt="">
+        <span class="sneaker__name">Nike Free RN</span>
+        <span class="sneaker__price">$149.99</span>
+        <a href="#" class="sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Collection -->
+  <section class="section section__container">
+    <div class="collection__container">
+      <article class="collection">
+        <img src="imgs/collection1.png" alt="" class="collection__nike">
+        <span class="collection__name">Nike</span>
+        <span class="collection__description">New collection 2020</span>
+        <a href="#" class="collection__add">Buy now<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+      <article class="collection">
+        <img src="imgs/collection2.png" alt="" class="collection__adidas">
+        <span class="collection__name">Adidas</span>
+        <span class="collection__description">New collection 2020</span>
+        <a href="#" class="collection__add">Buy now<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Women -->
+  <section id="women" class="section section__container">
+    <h2 class="section__title">WOMEN SNEAKERS</h2>
+    <div class="women__container">
+      <article class="women__sneaker">
+        <img src="imgs/women1.png" alt="">
+        <span class="women__sneaker__name">Nike Free TR</span>
+        <span class="women__sneaker__price">$129.99</span>
+        <a href="#" class="women__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+      <article class="women__sneaker">
+        <img src="imgs/women2.png" alt="">
+        <span class="women__sneaker__name">Nike Free TR</span>
+        <span class="women__sneaker__price">$129.99</span>
+        <a href="#" class="women__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+      <article class="women__sneaker">
+        <img src="imgs/women3.png" alt="">
+        <span class="women__sneaker__name">Nike GS Pink</span>
+        <span class="women__sneaker__price">$129.99</span>
+        <a href="#" class="women__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+
+      <article class="women__sneaker">
+        <img src="imgs/women4.png" alt="">
+        <span class="women__sneaker__name">Nike Get 5</span>
+        <span class="women__sneaker__price">$129.99</span>
+        <a href="#" class="women__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Offer -->
+  <section class="section section__container">
+    <div class="offer__container">
+      <div class="offer__data">
+        <h3 class="offer__title">50% OFF</h3>
+        <span class="offer__description">In Adidas Superstar sneakers</span>
+        <button class="offer__btn">Shop Now</button>
+      </div>
+      <img src="imgs/offert.png" alt="" class="offer__img">
+    </div>
+  </section>
+
+  <!-- New -->
+  <section id="new" class="section section__container">
+    <h2 class="section__title">NEW COLLECTION</h2>
+    <div class="new__container">
+      <div class="new__mens">
+        <img src="imgs/new1.png" alt="">
+        <h3 class="new__title">Mens Shoes</h3>
+        <span class="new__price">From $79.99</span>
+        <a href="" class="new__btn">View Collection<i class="fas fa-long-arrow-alt-right"></i></a>
+      </div>
+      <div class="new__sneaker">
+
+        <div class="new__sneaker-card">
+          <img src="imgs/new2.png" alt="">
+          <div class="new__sneaker-overlay">
+            <button href="" class="new__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+
+        <div class="new__sneaker-card">
+          <img src="imgs/new3.png" alt="">
+          <div class="new__sneaker-overlay">
+            <button href="" class="new__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+
+        <div class="new__sneaker-card">
+          <img src="imgs/new4.png" alt="">
+          <div class="new__sneaker-overlay">
+            <button href="" class="new__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+
+        <div class="new__sneaker-card">
+          <img src="imgs/new5.png" alt="">
+          <div class="new__sneaker-overlay">
+            <button href="" class="new__sneaker__add">Add to cart<i class="fas fa-long-arrow-alt-right"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="section section__container">
+    <div class="subscribe__container">
+      <div class="subscribe__data">
+        <h3 class="subscribe__title">Subscribe And Get <br> 10% OFF</h3>
+        <p class="subscribe__description">Get 10% discount for all product</p>
+      </div>
+      <form action="" class="subscribe__form">
+        <input type="text" class="subscribe__form-input" placeholder="@email.com">
+        <button class="subscribe__button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section section__container">
+    <div class="footer__container">
+      <div class="footer__section">
+        <h3 class="footer__title">Goldy</h3>
+        <span class="footer__goldy-description">New collection of shoes 2020</span>
+      </div>
+      <div class="footer__section">
+        <h3 class="footer__title">EXPLORE</h3>
+        <ul class="footer__explore__list">
+          <li class="footer__explore__list-item">Home</li>
+          <li class="footer__explore__list-item">Featured</li>
+          <li class="footer__explore__list-item">Women</li>
+          <li class="footer__explore__list-item">New</li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h3 class="footer__title">SUPPORT</h3>
+        <ul class="footer__support__list">
+          <li class="footer__support__list-item">Product Help</li>
+          <li class="footer__support__list-item">Customer Care</li>
+          <li class="footer__support__list-item">Athorized Service</li>
+        </ul>
+      </div>
+      <div class="footer__section">
+        <h3 class="footer__title">SNS</h3>
+        <div class="footer__sns__list">
+          <a href="" class="footer__sns__list-item"><i class="fab fa-facebook-f"></i></a>
+          <a href="" class="footer__sns__list-item"><i class="fab fa-instagram"></i></a>
+          <a href="" class="footer__sns__list-item"><i class="fab fa-twitter"></i></a>
+          <a href="" class="footer__sns__list-item"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <span>ⓒ 2022 GeonwooShin. All right reserved</span>
+    </div>
+  </footer>
+</body>
+</html>
