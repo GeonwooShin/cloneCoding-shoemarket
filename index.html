@@ -13,20 +13,23 @@
   <script src="main.js" defer></script>
 </head>
 <body>
+
+  <!-- Arrow Button -->
+  <div class="arrowBtn">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
   <!-- Navbar -->
   <nav id="navbar">
     <div class="navbar__logo">
       <a href="#">Goldy</a>
     </div>
     <ul class="navbar__menu">
-      <li class="navbar__menu__item">Home</li>
-      <li class="navbar__menu__item">Featured</li>
-      <li class="navbar__menu__item">Women</li>
-      <li class="navbar__menu__item">New</li>
-      <li class="navbar__menu__item"><a href="./shop.html">Shop</a></li>
-      <li class="navbar__menu__item">
-        <i class="fas fa-shopping-bag"></i>
-      </li>
+      <li class="navbar__menu__item active" data-link="#home">Home</li>
+      <li class="navbar__menu__item" data-link="#featured">Featured</li>
+      <li class="navbar__menu__item" data-link="#women">Women</li>
+      <li class="navbar__menu__item" data-link="#new">New</li>
+      <!-- <li class="navbar__menu__item"><a href="./shop.html">Shop</a></li> -->
     </ul>
 
     <!-- Toggle Button -->
@@ -86,7 +89,7 @@
   </section>
 
   <!-- Collection -->
-  <section class="section section__container">
+  <section id="featured" class="section section__container">
     <div class="collection__container">
       <article class="collection">
         <img src="imgs/collection1.png" alt="" class="collection__nike">
@@ -139,7 +142,7 @@
   </section>
 
   <!-- Offer -->
-  <section class="section section__container">
+  <section id="women" class="section section__container">
     <div class="offer__container">
       <div class="offer__data">
         <h3 class="offer__title">50% OFF</h3>
@@ -195,7 +198,7 @@
   </section>
 
   <!-- Subscribe -->
-  <section class="section section__container">
+  <section id="new" class="section section__container">
     <div class="subscribe__container">
       <div class="subscribe__data">
         <h3 class="subscribe__title">Subscribe And Get <br> 10% OFF</h3>
